@@ -1,7 +1,7 @@
 package com.company;
 
 import com.company.interfaces.Context;
-import com.company.nullobjectpattern.path.EchoPathContext;
+import com.company.pattern.nullobject.path.EchoPathContext;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package com.company.nullobjectpattern.path;
+package com.company.pattern.nullobject.path;
 
 public interface EchoPath {
     String echo();
