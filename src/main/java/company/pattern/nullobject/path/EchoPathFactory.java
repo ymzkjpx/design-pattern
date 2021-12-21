@@ -1,4 +1,4 @@
-package com.company.pattern.nullobject.path;
+package company.pattern.nullobject.path;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package com.company.pattern.nullobject.path;
+package company.pattern.nullobject.path;
 
 public class NonExistPath implements EchoPath {
 

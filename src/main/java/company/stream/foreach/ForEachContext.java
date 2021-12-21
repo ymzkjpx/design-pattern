@@ -1,11 +1,12 @@
-package com.company.stream.foreach;
+package company.stream.foreach;
 
-import com.company.interfaces.Context;
+import company.interfaces.Context;
 
 public class ForEachContext implements Context {
     @Override
     public void go() {
         Prices prices = PricesFactory.create();
+        System.out.println(prices.totalAsStream() == prices.totalAsFor());
         assert equals(prices.totalAsStream() == prices.totalAsFor());
     }
 }

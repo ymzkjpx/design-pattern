@@ -1,7 +1,7 @@
-package com.company;
+package company;
 
-import com.company.interfaces.Context;
-import com.company.stream.foreach.ForEachContext;
+import company.interfaces.Context;
+import company.stream.foreach.ForEachContext;
 
 public class Main {
 

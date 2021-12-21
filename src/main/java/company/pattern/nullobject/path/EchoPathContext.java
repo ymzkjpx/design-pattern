@@ -1,6 +1,6 @@
-package com.company.pattern.nullobject.path;
+package company.pattern.nullobject.path;
 
-import com.company.interfaces.Context;
+import company.interfaces.Context;
 
 public class EchoPathContext implements Context {
     @Override

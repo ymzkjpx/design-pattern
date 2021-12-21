@@ -1,4 +1,4 @@
-package com.company.stream.foreach;
+package company.stream.foreach;
 
 import java.util.List;
 
