@@ -9,11 +9,11 @@ public class Items {
         this.list = list;
     }
 
-    public static Items from(List<Item> list){
+    public static Items from(List<Item> list) {
         return new Items(list);
     }
 
-    public List<Item> asList(){
+    public List<Item> asList() {
         return list;
     }
 }

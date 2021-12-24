@@ -13,7 +13,7 @@ public class ItemNumber {
         return value;
     }
 
-    public static ItemNumber generate(){
+    public static ItemNumber generate() {
         return new ItemNumber(UUID.randomUUID());
     }
 }

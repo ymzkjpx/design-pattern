@@ -17,7 +17,6 @@ public class ItemName {
     public static boolean valid(String input) {
         if (Objects.isNull(input)) return false;
         if ("".equals(input)) return false;
-        if ("　".equals(input)) return false;
-        return true;
+        return !"　".equals(input);
     }
 }

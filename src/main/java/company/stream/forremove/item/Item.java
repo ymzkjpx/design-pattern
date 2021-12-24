@@ -11,11 +11,11 @@ public class Item {
         this.price = price;
     }
 
-    public static Item from(ItemNumber itemNumber, ItemName itemName, Price price){
+    public static Item from(ItemNumber itemNumber, ItemName itemName, Price price) {
         return new Item(itemNumber, itemName, price);
     }
 
-    public static Item from(ItemName itemName, Price price){
+    public static Item from(ItemName itemName, Price price) {
         return new Item(ItemNumber.generate(), itemName, price);
     }
 
