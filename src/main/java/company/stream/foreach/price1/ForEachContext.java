@@ -1,4 +1,4 @@
-package company.stream.foreach;
+package company.stream.foreach.price1;
 
 import company.interfaces.Context;
 

@@ -1,4 +1,4 @@
-package company.stream.foreach;
+package company.stream.foreach.price1;
 
 import java.util.List;
 
@@ -13,14 +13,14 @@ public class Prices {
         return list;
     }
 
-    public int totalAsStream(){
+    public int totalAsStream() {
         return list.stream().
                 map(price -> price.value())
                 .mapToInt(value -> value)
                 .sum();
     }
 
-    public int totalAsFor(){
+    public int totalAsFor() {
         int result = 0;
         for (Price price : list) {
             result += price.value();

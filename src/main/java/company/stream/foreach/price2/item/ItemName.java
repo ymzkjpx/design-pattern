@@ -1,4 +1,4 @@
-package company.stream.forremove.item;
+package company.stream.foreach.price2.item;
 
 import java.util.Objects;
 

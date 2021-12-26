@@ -1,4 +1,6 @@
-package company.stream.forremove.item;
+package company.stream.foreach.price2.item;
+
+import java.util.Objects;
 
 public class Item {
     ItemNumber itemNumber = ItemNumber.generate();
@@ -29,5 +31,10 @@ public class Item {
 
     public Price price() {
         return price;
+    }
+
+    public boolean equalItem(ItemNumber other) {
+        if (Objects.isNull(other)) return false;
+        return this.itemNumber().value().equals(other.value());
     }
 }

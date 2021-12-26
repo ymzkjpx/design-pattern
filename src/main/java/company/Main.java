@@ -1,7 +1,7 @@
 package company;
 
 import company.interfaces.Context;
-import company.stream.foreach.ForEachContext;
+import company.stream.foreach.price1.ForEachContext;
 
 public class Main {
 

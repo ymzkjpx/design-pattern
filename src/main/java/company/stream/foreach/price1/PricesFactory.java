@@ -1,4 +1,4 @@
-package company.stream.foreach;
+package company.stream.foreach.price1;
 
 import java.util.List;
 import java.util.Random;
@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 
 public class PricesFactory {
 
-    private static Random random = new Random();
+    private static final Random random = new Random();
 
     public static Prices create() {
         return new Prices(randomValues());

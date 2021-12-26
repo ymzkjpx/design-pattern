@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60cc01ac-9bb5-430b-993b-f59a8a424bd7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/company/stream/forremove/ItemFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/company/stream/forremove/item/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/company/stream/forremove/item/ItemName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/company/stream/forremove/item/ItemNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/company/stream/forremove/item/Items.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/company/stream/forremove/item/Price.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/company/stream/foreach/price2/Price2Context.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/stream/foreach/ForEachContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/stream/foreach/price1/ForEachContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/stream/foreach/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/stream/foreach/price1/Price.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/stream/foreach/Prices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/stream/foreach/price1/Prices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/stream/foreach/PricesFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/stream/foreach/price1/PricesFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/stream/forremove/ItemFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/stream/foreach/price2/ItemFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/stream/forremove/item/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/stream/foreach/price2/item/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/stream/forremove/item/ItemName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/stream/foreach/price2/item/ItemName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/stream/forremove/item/ItemNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/stream/foreach/price2/item/ItemNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/stream/forremove/item/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/stream/foreach/price2/item/Items.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/stream/forremove/item/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/stream/foreach/price2/item/Price.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/company/stream/forremove/ItemFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/company/stream/forremove/ItemFactoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +48,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -71,6 +79,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -82,7 +92,15 @@
     <property name="project.structure.side.proportion" value="0.48965517" />
     <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="company.stream.forremove" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.ItemFactoryTest">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="company.Main" />
       <module name="design-pattern.main" />
@@ -100,6 +118,130 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ItemFactoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;company.stream.forremove.ItemFactoryTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ItemFactoryTest.アイテムを削除できること" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;company.stream.forremove.ItemFactoryTest.アイテムを削除できること&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ItemFactoryTest.セットを12万個作成" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;company.stream.forremove.ItemFactoryTest.セットを12万個作成&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ItemFactoryTest.Itemが12個1セット作成できていること" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;company.stream.forremove.ItemFactoryTest.Itemが12個1セット作成できていること&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ItemFactoryTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;company.stream.forremove.ItemFactoryTest.test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ItemFactoryTest" />
+        <item itemvalue="Gradle.ItemFactoryTest.アイテムを削除できること" />
+        <item itemvalue="Gradle.ItemFactoryTest.セットを12万個作成" />
+        <item itemvalue="Gradle.ItemFactoryTest.Itemが12個1セット作成できていること" />
+        <item itemvalue="Gradle.ItemFactoryTest.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -110,7 +252,7 @@
       <option name="presentableId" value="Default" />
       <updated>1640065108158</updated>
       <workItem from="1640065109788" duration="6972000" />
-      <workItem from="1640262287488" duration="599000" />
+      <workItem from="1640262287488" duration="5872000" />
     </task>
     <servers />
   </component>
@@ -127,5 +269,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/company/stream/forremove/ItemFactoryTest.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
