@@ -5,20 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60cc01ac-9bb5-430b-993b-f59a8a424bd7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/company/stream/foreach/price2/Price2Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/company/serial/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/company/serial/AnimalSerialMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/company/serial/SerialAnimalContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/company/serial/serial.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/company/serial/SerialAnimalContextTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/company/stream/foreach/ForEachContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/stream/foreach/price1/ForEachContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/company/stream/foreach/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/stream/foreach/price1/Price.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/company/stream/foreach/Prices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/stream/foreach/price1/Prices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/company/stream/foreach/PricesFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/stream/foreach/price1/PricesFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/company/stream/forremove/ItemFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/stream/foreach/price2/ItemFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/company/stream/forremove/item/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/stream/foreach/price2/item/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/company/stream/forremove/item/ItemName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/stream/foreach/price2/item/ItemName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/company/stream/forremove/item/ItemNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/stream/foreach/price2/item/ItemNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/company/stream/forremove/item/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/stream/foreach/price2/item/Items.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/company/stream/forremove/item/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/stream/foreach/price2/item/Price.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/company/stream/forremove/ItemFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/company/stream/forremove/ItemFactoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +29,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -97,10 +93,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="company.serial" />
       <recent name="company.stream.forremove" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ItemFactoryTest">
+  <component name="RunManager" selected="Gradle.SerialAnimalContextTest.同種インスタンスを2つ以上保存すると上書きされる">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="company.Main" />
       <module name="design-pattern.main" />
@@ -141,7 +138,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ItemFactoryTest.アイテムを削除できること" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SerialAnimalContextTest.シリアライズできること" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -154,7 +151,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;company.stream.forremove.ItemFactoryTest.アイテムを削除できること&quot;" />
+            <option value="&quot;company.serial.SerialAnimalContextTest.シリアライズできること&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -164,12 +161,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ItemFactoryTest.セットを12万個作成" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SerialAnimalContextTest.ふたつシリアライズするとどうなるか" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" value="--stacktrace" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -177,7 +174,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;company.stream.forremove.ItemFactoryTest.セットを12万個作成&quot;" />
+            <option value="&quot;company.serial.SerialAnimalContextTest.ふたつシリアライズするとどうなるか&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -187,7 +184,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ItemFactoryTest.Itemが12個1セット作成できていること" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SerialAnimalContextTest.同種インスタンスを2つ以上保存すると上書きされる" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -200,7 +197,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;company.stream.forremove.ItemFactoryTest.Itemが12個1セット作成できていること&quot;" />
+            <option value="&quot;company.serial.SerialAnimalContextTest.同種インスタンスを2つ以上保存すると上書きされる&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -210,7 +207,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ItemFactoryTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SerialAnimalContextTest.同種インスタンスを2つ以上保存するとException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -223,7 +220,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;company.stream.forremove.ItemFactoryTest.test&quot;" />
+            <option value="&quot;company.serial.SerialAnimalContextTest.同種インスタンスを2つ以上保存するとException&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -235,11 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SerialAnimalContextTest.同種インスタンスを2つ以上保存すると上書きされる" />
+        <item itemvalue="Gradle.SerialAnimalContextTest.同種インスタンスを2つ以上保存するとException" />
+        <item itemvalue="Gradle.SerialAnimalContextTest.ふたつシリアライズするとどうなるか" />
+        <item itemvalue="Gradle.SerialAnimalContextTest.シリアライズできること" />
         <item itemvalue="Gradle.ItemFactoryTest" />
-        <item itemvalue="Gradle.ItemFactoryTest.アイテムを削除できること" />
-        <item itemvalue="Gradle.ItemFactoryTest.セットを12万個作成" />
-        <item itemvalue="Gradle.ItemFactoryTest.Itemが12個1セット作成できていること" />
-        <item itemvalue="Gradle.ItemFactoryTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +249,7 @@
       <option name="presentableId" value="Default" />
       <updated>1640065108158</updated>
       <workItem from="1640065109788" duration="6972000" />
-      <workItem from="1640262287488" duration="5872000" />
+      <workItem from="1640262287488" duration="14098000" />
     </task>
     <servers />
   </component>

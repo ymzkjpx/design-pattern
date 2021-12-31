@@ -1,12 +1,12 @@
 package company;
 
 import company.interfaces.Context;
-import company.stream.foreach.price1.ForEachContext;
+import company.serial.SerialAnimalContext;
 
 public class Main {
 
     public static void main(String[] args) {
-        Context context = new ForEachContext();
+        Context context = new SerialAnimalContext();
         context.go();
     }
 }
