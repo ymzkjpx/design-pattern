@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60cc01ac-9bb5-430b-993b-f59a8a424bd7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/company/serial/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/company/serial/AnimalSerialMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/company/serial/SerialAnimalContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/company/serial/serial.ser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/company/serial/SerialAnimalContextTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/company/aws/s3/S3ObjectOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +30,17 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="design-pattern" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="design-pattern" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -161,29 +167,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SerialAnimalContextTest.ふたつシリアライズするとどうなるか" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--stacktrace" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;company.serial.SerialAnimalContextTest.ふたつシリアライズするとどうなるか&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="SerialAnimalContextTest.同種インスタンスを2つ以上保存すると上書きされる" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -230,11 +213,33 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="SerialAnimalContextTest.ふたつシリアライズするとどうなるか" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--stacktrace" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;company.serial.SerialAnimalContextTest.ふたつシリアライズするとどうなるか&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.SerialAnimalContextTest.同種インスタンスを2つ以上保存すると上書きされる" />
         <item itemvalue="Gradle.SerialAnimalContextTest.同種インスタンスを2つ以上保存するとException" />
-        <item itemvalue="Gradle.SerialAnimalContextTest.ふたつシリアライズするとどうなるか" />
         <item itemvalue="Gradle.SerialAnimalContextTest.シリアライズできること" />
         <item itemvalue="Gradle.ItemFactoryTest" />
       </list>
@@ -249,7 +254,10 @@
       <option name="presentableId" value="Default" />
       <updated>1640065108158</updated>
       <workItem from="1640065109788" duration="6972000" />
-      <workItem from="1640262287488" duration="14098000" />
+      <workItem from="1640262287488" duration="14767000" />
+      <workItem from="1641215074628" duration="1568000" />
+      <workItem from="1641638239075" duration="530000" />
+      <workItem from="1642840309134" duration="1258000" />
     </task>
     <servers />
   </component>
