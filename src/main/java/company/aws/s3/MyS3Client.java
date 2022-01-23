@@ -27,4 +27,8 @@ public class MyS3Client {
     public Region region() {
         return region;
     }
+
+    public void close(){
+        s3Client.close();
+    }
 }

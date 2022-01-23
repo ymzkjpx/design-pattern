@@ -1,4 +1,4 @@
-package company.aws.s3;
+package company.aws.s3.bucket.create;
 
 import software.amazon.awssdk.core.waiters.WaiterResponse;
 import software.amazon.awssdk.regions.Region;
@@ -12,7 +12,7 @@ import software.amazon.awssdk.services.s3.waiters.S3Waiter;
 
 public class CreateBucket {
 
-    public static void createBucket(S3Client s3Client, String buketName, Region region) {
+    static void createBucket(S3Client s3Client, String buketName, Region region) {
         S3Waiter s3Waiter = s3Client.waiter();
 
         try {

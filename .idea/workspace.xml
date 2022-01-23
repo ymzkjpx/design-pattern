@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60cc01ac-9bb5-430b-993b-f59a8a424bd7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/company/aws/s3/MyS3Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/company/aws/s3/bucket/BucketName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/company/aws/s3/bucket/create/MakeS3Bucket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/company/aws/s3/bucket/delete/DeleteBucket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/company/aws/s3/bucket/delete/RemoveBucket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/company/aws/s3/MakeS3Bucket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/aws/s3/MakeS3Bucket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/aws/s3/CreateBucket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/aws/s3/bucket/create/CreateBucket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/aws/s3/MakeS3Bucket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/aws/s3/MyS3Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/aws/s3/MyS3Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/aws/s3/S3ActionContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/aws/s3/S3ActionContext.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,7 +268,7 @@
       <workItem from="1641215074628" duration="1568000" />
       <workItem from="1641638239075" duration="530000" />
       <workItem from="1642840309134" duration="6815000" />
-      <workItem from="1642928844093" duration="4029000" />
+      <workItem from="1642928844093" duration="6217000" />
     </task>
     <servers />
   </component>
@@ -292,64 +298,19 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/company/aws/s3/S3ActionContext.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/company/aws/s3/CreateBucket.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/company/aws/s3/CreateBucket.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/company/aws/s3/CreateBucket.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/company/aws/s3/CreateBucket.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/company/aws/s3/CreateBucket.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/company/aws/s3/CreateBucket.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/company/aws/s3/MakeS3Bucket.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/company/aws/s3/S3ActionContext.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/company/aws/s3/MakeS3Bucket.java</url>
-          <line>17</line>
+          <url>file://$PROJECT_DIR$/src/main/java/company/aws/s3/bucket/create/MakeS3Bucket.java</url>
+          <line>16</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/company/aws/s3/MyS3Client.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="36" />
+          <url>file://$PROJECT_DIR$/src/main/java/company/aws/s3/S3ActionContext.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/company/aws/s3/MyS3Client.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="38" />
+          <url>file://$PROJECT_DIR$/src/main/java/company/aws/s3/S3ActionContext.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
