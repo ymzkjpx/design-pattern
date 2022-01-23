@@ -8,7 +8,7 @@ import company.aws.s3.bucket.BucketName;
 public class MakeS3Bucket {
     BucketName bucketName;
 
-    public MakeS3Bucket(BucketName bucketName){
+    public MakeS3Bucket(BucketName bucketName) {
         this.bucketName = bucketName;
     }
 

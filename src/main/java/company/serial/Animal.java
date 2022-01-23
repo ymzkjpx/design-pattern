@@ -8,7 +8,7 @@ public class Animal implements Serializable {
     private final int age;
     private final String name;
     private final String nickname;
-    private transient String park = "茶臼山動物園";
+    private final transient String park = "茶臼山動物園";
 
     public Animal(int age, String name, String nickname) {
         this.age = age;

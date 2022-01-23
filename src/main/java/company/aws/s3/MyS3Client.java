@@ -5,8 +5,8 @@ import software.amazon.awssdk.regions.Region;
 import software.amazon.awssdk.services.s3.S3Client;
 
 public class MyS3Client {
-    private S3Client s3Client;
-    private Region region = Region.AP_NORTHEAST_1;
+    private final S3Client s3Client;
+    private final Region region = Region.AP_NORTHEAST_1;
 
     public MyS3Client() {
         this.s3Client = concreate();
@@ -28,7 +28,7 @@ public class MyS3Client {
         return region;
     }
 
-    public void close(){
+    public void close() {
         s3Client.close();
     }
 }

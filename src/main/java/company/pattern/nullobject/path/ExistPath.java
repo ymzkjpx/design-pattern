@@ -2,7 +2,7 @@ package company.pattern.nullobject.path;
 
 public class ExistPath implements EchoPath {
 
-    private String path;
+    private final String path;
 
     public ExistPath(String path) {
         this.path = path;

@@ -31,7 +31,7 @@ public class CreateBucket {
             WaiterResponse<HeadBucketResponse> waiterResponse = s3Waiter.waitUntilBucketExists(headBucketRequestWait);
             waiterResponse.matched().response().ifPresent(System.out::println);
             System.out.println(buketName + " is ready");
-        }catch (S3Exception e){
+        } catch (S3Exception e) {
             System.err.println(e.awsErrorDetails());
             System.exit(1);
         }

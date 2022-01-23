@@ -13,12 +13,12 @@ public class S3BucketMakeRemove implements Context {
         deleteEmptyBucket(bucketName);
     }
 
-    private void createNewBucket(BucketName bucketName){
+    private void createNewBucket(BucketName bucketName) {
         MakeS3Bucket makeS3Bucket = new MakeS3Bucket(bucketName);
         makeS3Bucket.create();
     }
 
-    private void deleteEmptyBucket(BucketName bucketName){
+    private void deleteEmptyBucket(BucketName bucketName) {
         RemoveBucket removeBucket = new RemoveBucket(bucketName);
         removeBucket.remove();
     }

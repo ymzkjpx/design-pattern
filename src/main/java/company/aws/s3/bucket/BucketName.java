@@ -4,17 +4,17 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class BucketName {
-    private String bucketName;
+    private final String bucketName;
 
-    private BucketName(String value){
+    private BucketName(String value) {
         this.bucketName = value;
     }
 
-    public static BucketName defaultBucket(){
+    public static BucketName defaultBucket() {
         return new BucketName("ymzkjpx-test-buket" + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyMMddHHmm")));
     }
 
-    public String value(){
+    public String value() {
         return bucketName;
     }
 
