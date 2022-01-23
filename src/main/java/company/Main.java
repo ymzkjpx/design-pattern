@@ -1,12 +1,12 @@
 package company;
 
+import company.aws.s3.S3ActionContext;
 import company.interfaces.Context;
-import company.serial.SerialAnimalContext;
 
 public class Main {
 
     public static void main(String[] args) {
-        Context context = new SerialAnimalContext();
+        Context context = new S3ActionContext();
         context.go();
     }
 }
