@@ -9,7 +9,7 @@ public class BucketName {
         this.bucketName = value;
     }
 
-    public static BucketName from(String value){
+    public static BucketName from(String value) {
         if (Objects.isNull(value) || "".equals(value)) throw new IllegalArgumentException("バケット名が空です");
         return new BucketName(value);
     }

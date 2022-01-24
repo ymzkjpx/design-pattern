@@ -10,6 +10,6 @@ public enum BucketNameEnum {
     }
 
     public String value() {
-        return bucketName.toString();
+        return bucketName;
     }
 }
