@@ -1,7 +1,7 @@
 package company.aws.s3.bucket.create;
 
 
-import company.aws.s3.MyS3Client;
+import company.aws.s3.agent.MyS3Client;
 import company.aws.s3.bucket.BucketName;
 
 

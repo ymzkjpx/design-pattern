@@ -1,7 +1,6 @@
 package company.aws.s3.bucket;
 
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
+import java.util.Objects;
 
 public class BucketName {
     private final String bucketName;
@@ -10,8 +9,9 @@ public class BucketName {
         this.bucketName = value;
     }
 
-    public static BucketName defaultBucket() {
-        return new BucketName("ymzkjpx-test-buket" + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyMMddHHmm")));
+    public static BucketName from(String value){
+        if (Objects.isNull(value) || "".equals(value)) throw new IllegalArgumentException("バケット名が空です");
+        return new BucketName(value);
     }
 
     public String value() {

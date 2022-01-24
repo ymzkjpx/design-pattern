@@ -1,4 +1,4 @@
-package company.aws.s3;
+package company.aws.s3.agent;
 
 import software.amazon.awssdk.auth.credentials.ProfileCredentialsProvider;
 import software.amazon.awssdk.regions.Region;

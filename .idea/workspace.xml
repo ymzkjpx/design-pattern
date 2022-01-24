@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60cc01ac-9bb5-430b-993b-f59a8a424bd7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/company/aws/s3/bucket/BucketName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/company/aws/s3/bucket/create/MakeS3Bucket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/company/aws/s3/bucket/delete/DeleteBucket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/company/aws/s3/bucket/delete/RemoveBucket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/company/aws/s3/agent/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/company/aws/s3/bucket/BucketNameEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/company/aws/s3/bucket/buckets/BucketsList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/company/aws/s3/usecase/MakeS3Bucket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/company/aws/s3/usecase/ShowBucketsList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/company/aws/s3/CreateBucket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/aws/s3/bucket/create/CreateBucket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/company/aws/s3/MakeS3Bucket.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/company/aws/s3/MyS3Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/aws/s3/MyS3Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/company/aws/s3/S3ActionContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/aws/s3/S3ActionContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/aws/s3/MyS3Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/aws/s3/agent/MyS3Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/aws/s3/bucket/BucketName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/aws/s3/bucket/BucketName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/aws/s3/bucket/create/MakeS3Bucket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/aws/s3/bucket/create/MakeS3Bucket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/aws/s3/bucket/delete/RemoveBucket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/aws/s3/bucket/delete/RemoveBucket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/aws/s3/usecase/S3BucketMakeRemove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/aws/s3/usecase/S3BucketMakeRemove.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +60,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="module-info" />
+        <option value="package-info" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -111,6 +117,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="company.serial" />
       <recent name="company.stream.forremove" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="company.aws.s3.usecase" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -268,7 +277,7 @@
       <workItem from="1641215074628" duration="1568000" />
       <workItem from="1641638239075" duration="530000" />
       <workItem from="1642840309134" duration="6815000" />
-      <workItem from="1642928844093" duration="6217000" />
+      <workItem from="1642928844093" duration="8713000" />
     </task>
     <servers />
   </component>
@@ -303,12 +312,12 @@
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/company/aws/s3/S3ActionContext.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/company/aws/s3/usecase/S3BucketMakeRemove.java</url>
           <line>13</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/company/aws/s3/S3ActionContext.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/company/aws/s3/usecase/S3BucketMakeRemove.java</url>
           <line>12</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
