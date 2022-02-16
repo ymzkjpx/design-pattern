@@ -1,12 +1,12 @@
 package company;
 
-import company.aws.s3.usecase.ShowBucketsList;
+import company.basic.imagefile.ImageFileContext;
 import company.interfaces.Context;
 
 public class Main {
 
     public static void main(String[] args) {
-        Context context = new ShowBucketsList();
+        Context context = new ImageFileContext();
         context.go();
     }
 }

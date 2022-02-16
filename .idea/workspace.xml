@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60cc01ac-9bb5-430b-993b-f59a8a424bd7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/company/basic/imagefile/DisplayImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/company/basic/imagefile/ImageFileContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/company/basic/imagefile/ReadTextFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/icon-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/texts/デカルト選書.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,10 +54,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="module-info" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="package-info" />
+        <option value="module-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -103,6 +108,9 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/images" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="company.serial" />
@@ -269,7 +277,7 @@
       <workItem from="1642840309134" duration="6815000" />
       <workItem from="1642928844093" duration="10997000" />
       <workItem from="1643283942515" duration="63000" />
-      <workItem from="1645012854203" duration="521000" />
+      <workItem from="1645012854203" duration="1226000" />
     </task>
     <servers />
   </component>
