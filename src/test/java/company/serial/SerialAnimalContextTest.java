@@ -2,6 +2,9 @@ package company.serial;
 
 import org.junit.jupiter.api.Test;
 
+import company.basic.serial.Animal;
+import company.basic.serial.AnimalSerialMachine;
+
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;

@@ -1,8 +1,8 @@
-package company.stream.foreach.price2;
+package company.basic.stream.foreach.price2;
 
 import company.interfaces.Context;
-import company.stream.foreach.price2.item.Item;
-import company.stream.foreach.price2.item.Items;
+import company.basic.stream.foreach.price2.item.Item;
+import company.basic.stream.foreach.price2.item.Items;
 
 public class Price2Context implements Context {
     @Override

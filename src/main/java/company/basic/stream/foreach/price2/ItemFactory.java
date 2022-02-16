@@ -1,13 +1,13 @@
-package company.stream.foreach.price2;
+package company.basic.stream.foreach.price2;
 
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import company.stream.foreach.price2.item.Item;
-import company.stream.foreach.price2.item.ItemName;
-import company.stream.foreach.price2.item.Items;
-import company.stream.foreach.price2.item.Price;
+import company.basic.stream.foreach.price2.item.Item;
+import company.basic.stream.foreach.price2.item.ItemName;
+import company.basic.stream.foreach.price2.item.Items;
+import company.basic.stream.foreach.price2.item.Price;
 
 public class ItemFactory {
     public static Items oneSet() {

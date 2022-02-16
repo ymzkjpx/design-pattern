@@ -6,9 +6,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import company.stream.foreach.price2.ItemFactory;
-import company.stream.foreach.price2.item.Item;
-import company.stream.foreach.price2.item.Items;
+import company.basic.stream.foreach.price2.ItemFactory;
+import company.basic.stream.foreach.price2.item.Item;
+import company.basic.stream.foreach.price2.item.Items;
 
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;

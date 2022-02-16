@@ -1,4 +1,4 @@
-package company.stream.foreach.price2.item;
+package company.basic.stream.foreach.price2.item;
 
 import java.util.ArrayList;
 import java.util.List;

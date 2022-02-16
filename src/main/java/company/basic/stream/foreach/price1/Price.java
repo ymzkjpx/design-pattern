@@ -1,4 +1,4 @@
-package company.stream.foreach.price1;
+package company.basic.stream.foreach.price1;
 
 public class Price {
     int value;

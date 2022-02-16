@@ -1,4 +1,4 @@
-package company.serial;
+package company.basic.serial;
 
 import java.io.Serializable;
 
